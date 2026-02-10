@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TLP2362_E_'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET";
+{========================================================================================}
+ "Toshiba", "TLP2362(E)" (!) = "", "11-4L1S(5-PIN-SOIC)", "Other", "757-TLP2362E", "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP2362E?qs=sRdS99IVWC99506MMfSUIA%3D%3D", "High Speed Optocouplers Photo-IC 6V VCC 3750 Vrms 6K Vtr", "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU1/DSASFU100019761.pdf"
+END_PART
+
+END.

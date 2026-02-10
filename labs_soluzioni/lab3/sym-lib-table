@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "leakCurrMeasLibrary")(type "KiCad")(uri "/Users/stefan/Desktop/Leak current V 20/leakCurrent_v2_0/leakCurrMeasLibrary.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "TRV20510M"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "TRV20510M")
+        (spec "default")
+    )
+)

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TRV_2_0511M'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Traco Power", "TRV 2-0511M" (!) = "", "TRV20511M", "Other", "495-TRV2-0511M", "https://www.mouser.co.uk/ProductDetail/TRACO-Power/TRV-2-0511M?qs=vvQtp7zwQdPTJ%2FNukxuIBA%3D%3D", "2 Watt DC/DC converter, medical/industrial, 1.5:1 input, regulated, 5000 VAC isolation, 2xMOPP, encpasulated, SIP-9", "https://tracopower.com/trv2m-datasheet/", "13 mm"
+END_PART
+
+END.

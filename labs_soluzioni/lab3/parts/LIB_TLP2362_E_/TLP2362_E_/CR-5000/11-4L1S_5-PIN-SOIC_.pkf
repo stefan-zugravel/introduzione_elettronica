@@ -1,0 +1,10 @@
+(unit MM)
+
+(package "11-4L1S_5-PIN-SOIC_"
+    (type UNDEF)
+    (uver 2)
+    (mountForm default
+        (footprintRef "11-4L1S_5-PIN-SOIC_")
+        (spec "default")
+    )
+)

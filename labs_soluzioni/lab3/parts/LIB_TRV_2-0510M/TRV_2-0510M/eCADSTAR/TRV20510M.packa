@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TRV_2-0510M"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2022-07-29-15:28:22)
+    (mountForm default
+        (footprintRef "TRV20510M")
+        (spec "System")
+    )
+)

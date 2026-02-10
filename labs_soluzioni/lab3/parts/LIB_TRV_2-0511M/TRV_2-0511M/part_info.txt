@@ -1,0 +1,9 @@
+Manufacturer=Traco Power
+PartNumber=TRV 2-0511M
+PartCategory=Power Supply
+PackageCategory=Other
+PinCount=4
+Version=7.5
+Released=2022-11-07 02:59:22
+Downloaded=2025-12-22 13:11:11
+3D=Y

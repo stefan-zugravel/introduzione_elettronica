@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "TLP2362_E_"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2018-06-06-11:10:45)
+    (mountForm default
+        (footprintRef "11-4L1S_5-PIN-SOIC_")
+        (spec "System")
+    )
+)

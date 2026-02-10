@@ -1,3 +1,7 @@
+work_area/*
+slides/TPS_introduzione_flusso_elettronica.pptx
+.DS_Store
+
 # For PCBs designed using KiCad: https://www.kicad.org/
 # Format documentation: https://kicad.org/help/file-formats/
 

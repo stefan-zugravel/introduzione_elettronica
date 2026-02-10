@@ -1,0 +1,214 @@
+{
+  "last_sch_text_sim_command": "",
+  "tabs": [
+    {
+      "analysis": "OP",
+      "commands": [
+        ".op",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp",
+        ".kicad esavenone"
+      ]
+    },
+    {
+      "analysis": "TRAN",
+      "commands": [
+        ".tran 1u 5m 0 1u",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(/FEE_1/inUcontroller_opto)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "signal": "V(Net-_U4-D_)",
+          "trace_type": 257
+        },
+        {
+          "color": "rgb(252, 141, 98)",
+          "signal": "V(Net-_U4-S2_)",
+          "trace_type": 257
+        }
+      ]
+    },
+    {
+      "analysis": "AC",
+      "commands": [
+        ".ac dec 50 10 100k",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp",
+        ".kicad esavenone"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/FEE_1/signal) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(/FEE_1/signal) (gain)",
+          "trace_type": 521
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(OUT) (phase)",
+          "trace_type": 517
+        },
+        {
+          "color": "rgb(255, 127, 0)",
+          "signal": "V(OUT) (gain)",
+          "trace_type": 521
+        }
+      ]
+    },
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc I1 0 700u 1u",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp",
+        ".kicad esavenone"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(77, 175, 74)",
+          "signal": "V(/FEE_2/inUcontroller_opto)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_U4-D_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(OUT)",
+          "trace_type": 2049
+        }
+      ]
+    },
+    {
+      "analysis": "DC",
+      "commands": [
+        ".dc V2 0 3.3 100m",
+        ".kicad adjustpaths",
+        ".save all",
+        ".probe alli",
+        ".probe allp"
+      ],
+      "dottedSecondary": true,
+      "margins": {
+        "bottom": 45,
+        "left": 70,
+        "right": 70,
+        "top": 30
+      },
+      "measurements": [],
+      "showGrid": true,
+      "traces": [
+        {
+          "color": "rgb(231, 138, 195)",
+          "signal": "I(R30)",
+          "trace_type": 2050
+        },
+        {
+          "color": "rgb(229, 196, 148)",
+          "signal": "I(XU4:5)",
+          "trace_type": 2050
+        },
+        {
+          "color": "rgb(102, 194, 165)",
+          "signal": "V(/FEE_1/inUcontroller_opto)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(166, 86, 40)",
+          "signal": "V(/FEE_2/inUcontroller_opto)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(247, 129, 191)",
+          "signal": "V(/FEE_3/inUcontroller_opto)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(252, 141, 98)",
+          "signal": "V(/FEE_4/inUcontroller_opto)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(255, 217, 47)",
+          "signal": "V(Net-_U10-D_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(55, 126, 184)",
+          "signal": "V(Net-_U10-S2_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(179, 179, 179)",
+          "signal": "V(Net-_U4-S2_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(166, 216, 84)",
+          "signal": "V(Net-_U7-D_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(Net-_U7-S2_)",
+          "trace_type": 2049
+        },
+        {
+          "color": "rgb(228, 26, 28)",
+          "signal": "V(relay_1)",
+          "trace_type": 2049
+        }
+      ]
+    }
+  ],
+  "user_defined_signals": [],
+  "version": 6
+}

@@ -1,0 +1,26 @@
+### Footprint positions - created on 2025-12-24T11:27:50+0100 ###
+### Printed by KiCad version 9.0.5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val            Package                 PosX       PosY       Rot  Side
+R1        10k            R_0603_1608Metric    91.8350   -41.2000  180.0000  top
+R2        10k            R_0603_1608Metric    91.9650   -56.1900  180.0000  top
+R3        10k            R_0603_1608Metric    91.9450   -71.2100  180.0000  top
+R4        10k            R_0603_1608Metric    91.9750   -86.2000  180.0000  top
+SW1       SW_Omron_B3FS  SW_PUSH_6mm          37.0100   -36.6900    0.0000  top
+SW2       SW_Omron_B3FS  SW_PUSH_6mm          52.0100   -36.6900    0.0000  top
+SW3       SW_Omron_B3FS  SW_PUSH_6mm          67.0100   -36.6900    0.0000  top
+SW4       SW_Omron_B3FS  SW_PUSH_6mm          82.0100   -36.6900    0.0000  top
+SW5       SW_Omron_B3FS  SW_PUSH_6mm          37.0100   -51.6900    0.0000  top
+SW6       SW_Omron_B3FS  SW_PUSH_6mm          52.0100   -51.6900    0.0000  top
+SW7       SW_Omron_B3FS  SW_PUSH_6mm          67.0100   -51.6900    0.0000  top
+SW8       SW_Omron_B3FS  SW_PUSH_6mm          82.0100   -51.6900    0.0000  top
+SW9       SW_Omron_B3FS  SW_PUSH_6mm          37.0100   -66.6900    0.0000  top
+SW10      SW_Omron_B3FS  SW_PUSH_6mm          52.0100   -66.6900    0.0000  top
+SW11      SW_Omron_B3FS  SW_PUSH_6mm          67.0100   -66.6900    0.0000  top
+SW12      SW_Omron_B3FS  SW_PUSH_6mm          82.0100   -66.6900    0.0000  top
+SW13      SW_Omron_B3FS  SW_PUSH_6mm          37.0100   -81.6900    0.0000  top
+SW14      SW_Omron_B3FS  SW_PUSH_6mm          52.0100   -81.6900    0.0000  top
+SW15      SW_Omron_B3FS  SW_PUSH_6mm          67.0100   -81.6900    0.0000  top
+SW16      SW_Omron_B3FS  SW_PUSH_6mm          82.0100   -81.6900    0.0000  top
+## End

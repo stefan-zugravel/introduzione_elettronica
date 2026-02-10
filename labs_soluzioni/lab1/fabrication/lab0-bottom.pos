@@ -1,0 +1,23 @@
+### Footprint positions - created on 2025-12-24T11:27:50+0100 ###
+### Printed by KiCad version 9.0.5
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val                  Package                               PosX       PosY       Rot  Side
+D1        D                    D_0603_1608Metric                  44.4400   -34.1200  180.0000  bottom
+D2        D                    D_0603_1608Metric                  59.4400   -34.1200  180.0000  bottom
+D3        D                    D_0603_1608Metric                  74.4400   -34.1200  180.0000  bottom
+D4        D                    D_0603_1608Metric                  89.4400   -34.1200  180.0000  bottom
+D5        D                    D_0603_1608Metric                  44.4400   -49.1200  180.0000  bottom
+D6        D                    D_0603_1608Metric                  59.4400   -49.1200  180.0000  bottom
+D7        D                    D_0603_1608Metric                  74.4400   -49.1200  180.0000  bottom
+D8        D                    D_0603_1608Metric                  89.4400   -49.1200  180.0000  bottom
+D9        D                    D_0603_1608Metric                  44.4400   -64.1200  180.0000  bottom
+D10       D                    D_0603_1608Metric                  59.4400   -64.1200  180.0000  bottom
+D11       D                    D_0603_1608Metric                  74.4400   -64.1200  180.0000  bottom
+D12       D                    D_0603_1608Metric                  89.4400   -64.1200  180.0000  bottom
+D13       D                    D_0603_1608Metric                  44.4400   -79.1200  180.0000  bottom
+D14       D                    D_0603_1608Metric                  59.4400   -79.1200  180.0000  bottom
+D15       D                    D_0603_1608Metric                  74.4400   -79.1200  180.0000  bottom
+D16       D                    D_0603_1608Metric                  89.4400   -79.1200  180.0000  bottom
+J1        Conn_02x05_Odd_Even  PinHeader_2x05_P2.54mm_Vertical    68.0000   -96.0000   90.0000  bottom
+## End

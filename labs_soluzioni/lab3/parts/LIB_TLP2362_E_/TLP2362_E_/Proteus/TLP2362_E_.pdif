@@ -1,0 +1,109 @@
+;Proteus Design Interchange Format
+(PDIF
+ (vendor "SamacSys Limited")
+ (version 1 0)
+ (library
+  (part "TLP2362_E_"
+   (description "High Speed Optocouplers Photo-IC 6V VCC 3750 Vrms 6K Vtr")
+   (family "ANA")
+   (package "11-4L1S(5-PIN-SOIC)")
+   (attribute "Datasheet Link" "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU1/DSASFU100019761.pdf")
+   (attribute "Mouser Part Number" "757-TLP2362E")
+   (attribute "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Toshiba/TLP2362E?qs=sRdS99IVWC99506MMfSUIA%3D%3D")
+   (attribute "Manufacturer_Name" "Toshiba")
+   (attribute "Manufacturer_Part_Number" "TLP2362(E)")
+   (gate
+    (symbol "TLP2362_E_")
+    (pin "ANODE" 1 PS)
+    (pin "CATHODE" 3 PS)
+    (pin "GND" 4 PS)
+    (pin "VO_(OUTPUT)" 5 PS)
+    (pin "VCC" 6 PS)
+   )
+  )
+  (symbol "TLP2362_E_"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 200 100) (pt 1400 100) (pt 1400 -300) (pt 200 -300) (pt 200 100) (closed))
+   )
+   (terminal
+    (body (symbol "PIN") (pt 0 0) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 0 -100) (rot 0) (mir 0) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -200) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 -100) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+   (terminal
+    (body (symbol "PIN") (pt 1600 0) (rot 0) (mir X) (visible true))
+    (name (pt 230 0) (rot 0) (just MIDDLE LEFT) (visible true))
+    (number (pt 140 20) (rot 0) (just BOTTOM RIGHT) (visible true)))
+  )
+  (symbol "PIN"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 200 0))))
+  (symbol "PINSHORT"
+   (units THOU)
+   (origin (pt 0 0))
+   (graphic
+    (stroke 10)
+    (path (pt 0 0) (pt 100 0))))
+  (package "11-4L1S(5-PIN-SOIC)"
+   (units MM)
+   (layer TASM
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed true)
+      (pt -1.85 2.275)
+      (pt 1.85 2.275)
+      (pt 1.85 -2.275)
+      (pt -1.85 -2.275)
+      (pt -1.85 2.275))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (path
+      (closed false)
+      (pt -1.85 2.275)
+      (pt -1.85 -2.275)
+      (pt 1.85 -2.275)
+      (pt 1.85 2.275)
+      (pt -1.85 2.275))))
+   (layer TSLK
+    (graphic
+     (stroke 0.254)
+     (circle
+      (pt -2.16471 -3.896) (pt -2.00329 -3.896)
+     )
+    )
+   )
+   (leg 6 (pt -1.27 3.15) (padstack 0))
+   (leg 5 (pt 0 3.15) (padstack 0))
+   (leg 4 (pt 1.27 3.15) (padstack 0))
+   (leg 1 (pt -1.27 -3.15) (padstack 0))
+   (leg 3 (pt 1.27 -3.15) (padstack 0))
+   (padstack 0
+    (plated false)
+    (pad (layer TCOP) (rectf 0.8 1.2 0 0 90))
+   )
+   (model "TLP2362_E_.stp"
+    (euler 90 0 0)
+    (offset 0 0 1.149999976158142)
+   )
+  )
+ )
+)
