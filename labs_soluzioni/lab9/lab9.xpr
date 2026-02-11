@@ -58,7 +58,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="arty-a7-35"/>
-    <Option Name="WTXSimLaunchSim" Val="5"/>
+    <Option Name="WTXSimLaunchSim" Val="6"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -106,6 +106,12 @@
         <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_FIR_0_0/lab9_block_design_FIR_0_0.xci">
           <Proxy FileSetName="lab9_block_design_FIR_0_0"/>
         </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_clk_wiz_0_0/lab9_block_design_clk_wiz_0_0.xci">
+          <Proxy FileSetName="lab9_block_design_clk_wiz_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_dds_compiler_0_0/lab9_block_design_dds_compiler_0_0.xci">
+          <Proxy FileSetName="lab9_block_design_dds_compiler_0_0"/>
+        </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_dds_compiler_1_0/lab9_block_design_dds_compiler_1_0.xci">
           <Proxy FileSetName="lab9_block_design_dds_compiler_1_0"/>
         </CompFileExtendedInfo>
@@ -114,12 +120,6 @@
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_ila_0_0/lab9_block_design_ila_0_0.xci">
           <Proxy FileSetName="lab9_block_design_ila_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_dds_compiler_0_0/lab9_block_design_dds_compiler_0_0.xci">
-          <Proxy FileSetName="lab9_block_design_dds_compiler_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="lab9_block_design.bd" FileRelPathName="ip/lab9_block_design_clk_wiz_0_0/lab9_block_design_clk_wiz_0_0.xci">
-          <Proxy FileSetName="lab9_block_design_clk_wiz_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PGENDIR/sources_1/bd/lab9_block_design/hdl/lab9_block_design_wrapper.v">
@@ -254,9 +254,7 @@
     </Run>
     <Run Id="lab9_block_design_FIR_0_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_FIR_0_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_FIR_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_FIR_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_FIR_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_FIR_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -266,9 +264,7 @@
     </Run>
     <Run Id="lab9_block_design_dds_compiler_1_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_dds_compiler_1_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_dds_compiler_1_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_dds_compiler_1_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_1_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_1_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -278,9 +274,7 @@
     </Run>
     <Run Id="lab9_block_design_c_addsub_0_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_c_addsub_0_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_c_addsub_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_c_addsub_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_c_addsub_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_c_addsub_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -290,9 +284,7 @@
     </Run>
     <Run Id="lab9_block_design_ila_0_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_ila_0_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_ila_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_ila_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_ila_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_ila_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -302,9 +294,7 @@
     </Run>
     <Run Id="lab9_block_design_dds_compiler_0_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_dds_compiler_0_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_dds_compiler_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_dds_compiler_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -314,9 +304,7 @@
     </Run>
     <Run Id="lab9_block_design_clk_wiz_0_0_synth_1" Type="Ft3:Synth" SrcSet="lab9_block_design_clk_wiz_0_0" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_clk_wiz_0_0" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/lab9_block_design_clk_wiz_0_0_synth_1" IncludeInArchive="true" IsChild="false" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_clk_wiz_0_0_synth_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_clk_wiz_0_0_synth_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022">
-          <Desc>Vivado Synthesis Defaults</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
         <Step Id="synth_design"/>
       </Strategy>
       <GeneratedRun Dir="$PRUNDIR" File="gen_run.xml"/>
@@ -344,9 +332,7 @@
     </Run>
     <Run Id="lab9_block_design_FIR_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_FIR_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_FIR_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_FIR_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_FIR_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -363,9 +349,7 @@
     </Run>
     <Run Id="lab9_block_design_dds_compiler_1_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_dds_compiler_1_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_dds_compiler_1_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_1_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_1_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -382,9 +366,7 @@
     </Run>
     <Run Id="lab9_block_design_c_addsub_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_c_addsub_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_c_addsub_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_c_addsub_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_c_addsub_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -401,9 +383,7 @@
     </Run>
     <Run Id="lab9_block_design_ila_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_ila_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_ila_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_ila_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_ila_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -420,9 +400,7 @@
     </Run>
     <Run Id="lab9_block_design_dds_compiler_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_dds_compiler_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_dds_compiler_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_dds_compiler_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
@@ -439,9 +417,7 @@
     </Run>
     <Run Id="lab9_block_design_clk_wiz_0_0_impl_1" Type="Ft2:EntireDesign" Part="xc7a35ticsg324-1L" ConstrsSet="lab9_block_design_clk_wiz_0_0" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="lab9_block_design_clk_wiz_0_0_synth_1" IncludeInArchive="false" IsChild="false" GenFullBitstream="true" AutoIncrementalDir="$PSRCDIR/utils_1/imports/lab9_block_design_clk_wiz_0_0_impl_1" AutoRQSDir="$PSRCDIR/utils_1/imports/lab9_block_design_clk_wiz_0_0_impl_1">
       <Strategy Version="1" Minor="2">
-        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022">
-          <Desc>Default settings for Implementation.</Desc>
-        </StratHandle>
+        <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2022"/>
         <Step Id="init_design"/>
         <Step Id="opt_design"/>
         <Step Id="power_opt_design"/>
