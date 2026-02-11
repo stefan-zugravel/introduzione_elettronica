@@ -1,0 +1,10 @@
+verilog xil_defaultlib --include "../../../../lab9.gen/sources_1/bd/lab9_block_design/ipshared/7698" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_FIR_0_0/sim/lab9_block_design_FIR_0_0.v" \
+"../../../bd/lab9_block_design/sim/lab9_block_design.v" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_clk_wiz_0_0/lab9_block_design_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_clk_wiz_0_0/lab9_block_design_clk_wiz_0_0.v" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_ila_0_0/sim/lab9_block_design_ila_0_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

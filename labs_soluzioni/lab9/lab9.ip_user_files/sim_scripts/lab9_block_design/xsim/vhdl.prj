@@ -1,0 +1,6 @@
+vhdl xil_defaultlib  \
+"../../../bd/lab9_block_design/ip/lab9_block_design_dds_compiler_0_0/sim/lab9_block_design_dds_compiler_0_0.vhd" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_dds_compiler_1_0/sim/lab9_block_design_dds_compiler_1_0.vhd" \
+"../../../bd/lab9_block_design/ip/lab9_block_design_c_addsub_0_0/sim/lab9_block_design_c_addsub_0_0.vhd" \
+
+nosort
