@@ -1,7 +1,3 @@
---
--- Example VHDL testbench to simulate basic logic gates.
---
-
 
 library IEEE ;
 use IEEE.std_logic_1164.all ;       -- include extended logic values (by default VHDL only provides 0/1 with the 'bit' data type)

@@ -1,23 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 12/25/2025 01:50:10 PM
--- Design Name: 
--- Module Name: inverter - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: A simple inverter (NOT gate) in VHDL
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
 
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL; -- include extended logic values (by default VHDL only provides 0/1 with the 'bit' data type)
