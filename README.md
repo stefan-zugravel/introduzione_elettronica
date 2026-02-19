@@ -11,6 +11,13 @@ in base a proprio metodo di autenticazione preferito (consiglio chiave ssh)
 ***
 ## Lezione online sincrona
 Dato il limitato tempo a disposizione la lezione sicrona si dovrà concentrare maggiormente sull'aspetto teorico e su ebventuali consigli pratici. Cercheremo comunque di vedere assieme, per i due tool più importanti (KiCAD e VIVADO), come creare un nuoo progetto e quali sono le funzioni principali del tool.
+- Istruzioni per accedere ai laboratori con le consegne e le soluzioni (15 min) 
+- Introduzione pcb con slides (45 min circa)
+- KiCAD, aggiungere componenti, come funziona il tool e qualche accorgimento (45 min)
+- Informazioni più generali sul workflow, BOM, produzione, materiali ecc (15 min)
+- Pausa 10 min
+- VHDL e FPGA introduzione con slides (60 min)
+- VIVADO, introduzione al tool e strumenti principali (fino a termine lezione)
 ***
 ## Laboratori
 ### Lab 0 - Laboratorio introduttivo su GIT
