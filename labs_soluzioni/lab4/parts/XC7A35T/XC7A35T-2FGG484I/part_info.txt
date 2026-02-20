@@ -1,9 +1,0 @@
-Manufacturer=AMD
-PartNumber=XC7A35T-2FGG484I
-PartCategory=Integrated Circuit
-PackageCategory=BGA
-PinCount=484
-Version=4.1
-Released=2018-11-07 14:18:14
-Downloaded=2026-01-12 13:48:41
-3D=Y

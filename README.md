@@ -50,7 +50,7 @@ Per prendere dimestichezza con il tool consiglio di creare una *repo* diversa pe
 - Cercate di usare il meno possibile le soluzioni. Soprattutto per questo laboratorio. La parte più difficile del design molte volte è proprio all'inizio, scegliere l'architettura, il tipo di circuito da usare e su quali componenti fare affidamento. Ho volutamente omesso dai consigli tutti gli altri componenti da usare. Fate le vostre scelte e poi confrontatevi con la soluzione proposta (che non è detto essere la migliore).
 
 ### Lab 4 - FPGA e KiCAD
-**Consegna:** Importa un FPGA a scelta in KiCAD, collega il power e qualche linea dati e prova a farne il layout. Questo laboratorio è il più _"difficile"_ in quanto le tolleranze in gioco sono generalmente piccole. Sulle slides puoi trovare i link a due brevi video tutorial. Prendi il tempo necessario e **leggi la documentazione** dell'FPGA che hai scelto.
+**Consegna:** Importa un FPGA a scelta in KiCAD, collega il power e qualche linea dati e prova a farne il layout. Questo laboratorio è il più _"difficile"_ in quanto le tolleranze in gioco sono generalmente piccole e la soluizone mostra solo un esempio di un layout finito e non un effettivo punto di arrivo del laboratorio. Sulle slides puoi trovare i link a due brevi video tutorial. Prendi il tempo necessario e **leggi la documentazione** dell'FPGA che hai scelto.
 ### Lab 5 - Introduzione a LTspice
 **Consegna:** Con LTspice disegna lo schematico ed esegui la simulazione dei seguenti circuiti analogici:
 - Un semplice partitore resistivo (simulazione .op e un .dc sweep)

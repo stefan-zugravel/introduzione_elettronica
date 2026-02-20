@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP XC7A35T-2FGG484I
-D XILINX - XC7A35T-2FGG484I - FPGA, ARTIX-7, 250 I/O, FPBGA-484
-K
-F https://www.xilinx.com/support/documentation/data_sheets/ds181_Artix_7_Data_Sheet.pdf
-$ENDCMP
-#
-#End Doc Library
